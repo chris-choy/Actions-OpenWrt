@@ -84,7 +84,7 @@ jobs:
     #  if: env.SSH_ACTIONS == 'true'
       
     - name: SSH connection to Actions
-      uses: be-engineer/debugger-action@master
+      uses: P3TERX/ssh2actions@main
       if: env.SSH_ACTIONS == 'true'
 
     - name: Download package
